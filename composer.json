@@ -1,5 +1,5 @@
 {
-    "name": "dusterio/laravel-plain-sqs",
+    "name": "sidigi/laravel-plain-sqs",
     "type": "library",
     "description": "Custom SQS connector for Laravel that supports custom format JSON",
     "keywords": [
@@ -9,7 +9,7 @@
         "sqs",
         "aws"
     ],
-    "homepage": "https://github.com/dusterio/laravel-plain-sqs",
+    "homepage": "https://github.com/sidigi/laravel-plain-sqs",
     "license": "MIT",
     "authors": [
         {
@@ -26,7 +26,7 @@
         "aws/aws-sdk-php": "~3.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "3.7.*|^9.5.10",
+        "phpunit/phpunit": "3.7.*|^9.5.10|^10.0"
     },
     "autoload": {
         "psr-4": {
